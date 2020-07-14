@@ -10,10 +10,7 @@ body{
 	width: 100%;
 	/*opacity: 0.7;*/
 }
-.encap{
-	display:flex;
-	flex-direction: column;
-}
+
 
 header nav ul li{
 	display: inline-block;
@@ -153,7 +150,7 @@ section:nth-child(2n+1){
 .skill-progress>div{
 	border-radius: 20px 0px 0px 20px;	
 }
-.seventy-five-percent,.sixty-five-percent,.fifty-five-percent,.sixty-percent,.forty-percent,.twenty-five-percent{
+.seventy-five-percent,.sixty-five-percent,.eighty-five-percent,.seventy-percent{
 	height: inherit;
 	width: 75%;
 	background-color: #2857a4;
@@ -171,17 +168,14 @@ section:nth-child(2n+1){
 	background-color: #93738c;
 	width: 65%;
 }
-.fifty-five-percent{
+.eighty-five-percent{
 	background-color: #ec4d1c;
-	width: 55%;
+	width: 85%;
 }
-.sixty-percent{
-	background-color: #93738c;
-	width: 60%
-}
-.forty-percent{
+
+.seventy-percent{
 	background-color: #0b8176;
-	width: 40%;
+	width: 70%;
 }
 
 #portfolio{
@@ -197,7 +191,7 @@ section:nth-child(2n+1){
 	justify-content: space-between;
 	height: 80%;
 	width: 70%;
-	border:1px solid red;
+	
 }
 .portfolio-image{
 	position: relative;
@@ -367,7 +361,7 @@ textarea{
 .timeline{
 	width: 75%;
 	position: relative;
-	border:2px solid black;
+	
 }
 .timeline-box{
 	position: relative;
@@ -375,7 +369,6 @@ textarea{
 	width: 40%;
 	left: 5%;
 	min-height: 150px;
-	border:2px solid black;
 	font-size: 1.7rem;
 }
 .timeline-box:nth-child(2n){
@@ -494,9 +487,3 @@ textarea{
 
 
 
-/* **************Media Queries */
-
-
-@media screen and (max-width:770px){
-	
-}
